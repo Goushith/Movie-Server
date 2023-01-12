@@ -1,0 +1,21 @@
+nodejs + express =servercreation
+
+package.json is created using npm init 
+creation of node modules npm i express 
+
+
+Basic Steps
+
+1.Creating a folder
+2)Creating Package.json
+3)Install express
+4.create index .js
+5)Import express inside the index.js
+6)create app using express
+7)setup port number 
+8) resolving http request
+    Get
+
+
+        for automatic working of backend
+    mpm i -g nodemon 
