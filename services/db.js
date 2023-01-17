@@ -34,13 +34,39 @@ const Movie = mongoose.model('Movie',{
 
 
 
+const User = mongoose.model('User',
+{
+    email:String,
+    username:String,
+    password:String,
+})
 
 
+
+const Watchlist = mongoose.model('Watchlist',
+{
+    // email:String,
+    // watchlists:[
+    //     {
+        email:String,
+        id:Number,
+        name:String,
+        cover:String,
+        rating:String,
+        actors:String,
+        directors:String,
+        description:String,
+    //     }
+    // ]
+}
+)
 
 
 
 
 module.exports={
-    Movie
+    Movie,
+    User,
+    Watchlist
 
 }
